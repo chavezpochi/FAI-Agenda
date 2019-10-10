@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FAI Agenda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">La concha de tu madre allboys</string>
+    <string name="button_contact">Contactos</string>
+    <string name="button_calendar">Calendario</string>
+    <string name="calendar_text">Cumpleaños el dia: </string>
+</resources>

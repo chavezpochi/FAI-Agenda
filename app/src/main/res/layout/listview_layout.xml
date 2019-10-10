@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparentTextView"
+    android:orientation="horizontal"
+    >
+
+
+    <ImageView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/img_contact"
+        android:layout_width="@dimen/standard_45"
+        android:layout_height="60dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_contact"
+        android:tint="@color/icons" />
+
+    <LinearLayout
+        android:layout_width="181dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/panelBackground"
+            android:padding="5dp"
+            android:text="Nombre Contacto"
+            android:textColor="@color/primaryTextColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/panelBackground"
+            android:breakStrategy="high_quality"
+            android:padding="5dp"
+            android:text="Numero Telefono"
+            android:textColor="@color/primaryTextColor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageButton
+            android:id="@+id/delete_contact"
+            android:layout_width="@dimen/standard_55"
+            android:layout_height="@dimen/standard_65"
+            android:layout_marginLeft="2dp"
+            android:scaleType="center"
+            android:tint="@android:color/holo_red_dark"
+            app:srcCompat="@drawable/ic_menu_delete"/>
+
+        <ImageButton
+            android:id="@+id/modify_contact"
+            android:layout_width="@dimen/standard_55"
+            android:layout_height="@dimen/standard_65"
+            android:layout_marginLeft="2dp"
+            android:scaleType="center"
+            android:tint="@android:color/holo_orange_dark"
+            app:srcCompat="@drawable/ic_menu_edit"
+            tools:srcCompat="@drawable/ic_menu_edit" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
